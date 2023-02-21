@@ -1,0 +1,48 @@
+.borde{
+    border: 1px solid orange;
+}
+
+.caja1{
+    width: 500px;
+    height:250px;
+    background-color: orange;
+}
+
+.caja2{
+    width: 500px;
+    height:auto;
+    background-color: plum;
+}
+
+.caja3{
+    width: 50%;
+    height:100px;
+    background-color: red;
+}
+
+.cita{
+        
+    width: 80%;
+    height: 80px;
+    background-color: grey;
+    margin: 0 auto;
+    font-size: 50px;
+    /* overflow: hidden; Oculta contenido desbordado */
+    overflow-y: auto; /*Se mostrara el scroll solo cuando sea necesario*/
+
+}
+
+
+/* Dimensiones maximas y minimas responsive*/
+
+.responsive{
+    max-width: 100%;
+}
+
+.card{
+    width: 33.333%;
+    min-width: 220px;
+    height: 260px;
+    box-shadow: 2px 2px 4px grey;
+    border-radius: 5px;
+}

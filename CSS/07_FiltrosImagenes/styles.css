@@ -1,0 +1,11 @@
+/* Implementacion de fuente externa */
+img{
+    width: 250px;
+    margin: 20px;
+    filter: sepia(100%);
+}
+
+img:hover{
+    
+    filter: blur(10px);
+}

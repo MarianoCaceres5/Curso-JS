@@ -1,0 +1,35 @@
+/* Combinacion de selectores para las mismas reglas (,) */
+
+h1, h2{
+    color: violet;
+}
+
+/* Combinacion de selectores unidos */
+
+div.texto{
+    color: green;
+}
+
+/* Combinacion de selectores descendientes ( ) */
+
+.personajes li{
+    color: crimson;
+}
+
+/* Combinacion de selectores descendientes directos (>) */
+
+.contenedor>h1{
+    color: brown;
+}
+
+/* Combinacion de selectores hermanos en general (~), en el mismo nivel de una jerarquia de elementos */
+
+.primogenito~.hermano-normal{
+    color: blue;
+}
+
+/* Combinacion de selectores hermanos adyacente (+), el siguiente */
+
+.primogenito-2+.hermano-normal-2{
+    color: goldenrod;
+}

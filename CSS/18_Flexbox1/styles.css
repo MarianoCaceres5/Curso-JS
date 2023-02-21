@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    border: 40px solid orange;
+    height: 100vh;
+    display: flex; /* Se establece el modelo flex */
+    /* Flex provoca que todos los elementos hijos pasen a ser elementos en linea */
+
+    /* Justify content
+    
+        flex-start (alinea al inicio)
+        center (centra)
+        flex-end
+        space-between (reparte los espacios desde los extremos)
+        space-around (reparte los espacios entre todos los elementos)
+    
+    */
+    justify-content: space-around; /*Alinea en el eje X, el primario */
+
+    /* Align items
+    
+        flex-start (alinea al inicio)
+        center (centra)
+        flex-end (alinea al final)
+        space-between (reparte los espacios desde los extremos)
+        space-around (reparte los espacios entre todos los elementos)
+        stretch (por defecto)
+    
+    */
+
+    align-items: center; /*Alinea en el eje Y, el secundario */
+}
+
+.caja{
+    width: 125px;
+    height: 125px;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.verde{background-color: green;}
+
+.roja{background-color: red;}
+
+.morada{background-color: violet;}

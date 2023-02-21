@@ -1,0 +1,33 @@
+/* Implementacion de fuente externa */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.sombreado{
+    text-shadow: 0px 20px 4px red;
+    font-size: 36px;
+}
+
+/* Cambiar color y aspecto de texto seleccionado con el mouse */
+
+*::selection{
+    background-color: darkmagenta;
+    color: white;
+}
+
+p{
+    font-size: 22px;
+    line-height: 2;
+    text-align: center;
+}
+
+/* Text decoration */
+
+.subrayado{
+    
+    text-decoration: underline wavy red; /* Propiedad de tipo shorthand */
+    
+}

@@ -1,0 +1,27 @@
+ul{
+    list-style: none;
+}
+
+li{
+    font-size: 28px;
+}
+
+/* Pseudoeleemnto before (renderizar un contenido antes del elemento) */
+
+li::before{
+    content: '✔'; /* tambien se pueden poner imagenes con url */
+    position: relative;
+    right: 10px;
+    font-size: 30px;
+    color: crimson;
+}
+
+/* Pseudoclases para elementos repetitivos */
+
+li:first-child{
+    color: red;
+}
+
+li:nth-child(3){
+    color: violet;
+}

@@ -1,0 +1,43 @@
+/* Implementacion de fuente externa */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+@keyframes jump{
+
+    /* Etapas de la animacion */
+    0% {
+        bottom: 0;
+        transform: translateX(-50%) rotate(0deg);
+    }
+    50% { 
+        bottom: 300px;
+        transform: translateX(-50%) rotate(360deg);
+    }
+    100% {
+        bottom: 0;
+        transform: translateX(-50%) rotate(0deg);
+    }
+}
+
+img{
+    height: 150px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    animation-name: jump;
+    animation-duration: 3000ms;
+    animation-iteration-count: 3;
+}

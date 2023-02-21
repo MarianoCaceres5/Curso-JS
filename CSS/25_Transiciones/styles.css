@@ -1,0 +1,34 @@
+/* Implementacion de fuente externa */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.message{
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    border-radius: 0.5rem;
+    margin: 2rem auto;
+    cursor: pointer;
+
+    /* transition-property: width, background-color, color, border;    
+    transition-duration: 800ms, 500ms, 500ms, 500ms;
+    transition-timing-function: ease-in-out, linear, linear, linear; */
+
+    transition: all 300ms ease-in-out;
+}
+
+.message:hover{
+    width: 600px;
+    background-color: white;
+    color: crimson;
+    border: 4px solid crimson;
+}

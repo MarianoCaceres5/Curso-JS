@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    border: 4px solid orange;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    align-items: stretch;
+}
+
+.caja{
+    background-color: lightcoral;
+    width: 250px;
+    padding: 20px;
+}
+
+.caja p{
+    font-size: 23px;
+}

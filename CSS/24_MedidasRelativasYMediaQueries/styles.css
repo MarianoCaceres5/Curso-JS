@@ -1,0 +1,58 @@
+/* Implementacion de fuente externa */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Medidas relativas rem y em */
+
+/* Rem: establece un tamano relativo al valor font-size raiz*/
+/* Em: establece un tamano en relativo al tamano de la fuente del propio elemento*/
+
+
+
+html{
+    font-size: 20px; /*Valor raiz*/
+}
+
+.container{
+    padding: 1.5rem; /* 1rem = font-size del elemento */
+}
+
+h1{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+button{
+    font-size: 1rem;
+    background-color: cadetblue;
+    border: 1px solid cadetblue;
+    margin: 1rem;
+    color: white;
+    padding: 0.5em 1em;  /* Medida relativa al tamano de la fuente del propio elemento*/
+    border-radius: 0.3em;
+}
+
+@media (max-width: 720px) {
+    html{
+        font-size: 18px;    
+    }
+}
+
+@media (max-width: 440px) {
+    html{
+        font-size: 16px;    
+    }
+}
